@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+.welcome-container {
+  background-color: #1e293b;
+  height: 100vh;
+  font-family: Bree Serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-heading {
+  color: #f0bb03;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.welcome-description {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.subscribed-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .welcome-heading {
+    font-size: 20px;
+  }
+
+  .welcome-description {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .welcome-heading {
+    font-size: 25px;
+  }
+
+  .welcome-description {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .welcome-heading {
+    font-size: 30px;
+  }
+
+  .welcome-description {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .welcome-heading {
+    font-size: 35px;
+  }
+
+  .welcome-description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .welcome-heading {
+    font-size: 40px;
+  }
+
+  .welcome-description {
+    font-size: 22px;
+  }
+}
